@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="component.css">
+    <link rel="shortcut icon" href="laurence favicon.png" type="image/x-icon">
+    <title>Lournece : barista in you home </title>
+    <script src="https://kit.fontawesome.com/7041039d72.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <script>
+        // Disable automatic scroll restoration
+        history.scrollRestoration = 'manual';
+
+        // Scroll to top on page load
+        window.onload = function () {
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        };
+    </script>
+
+</head>
+
+<body>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+
+            <div id="background">
+
+                <nav>
+                    <div class="logo-n-menu">
+
+                        <img src="laurence logo.png" alt="logo" id="logo">
+
+                        <div class="menu">
+                            <p class="active">Home</p>
+                            <p><a href="lunch.html" style="color: #670917; text-decoration: none;">Combo</a></p>
+
+                            <p> <a href="about-us.html" style="color: #670917; text-decoration: none;">About
+                                    Us</a></p>
+
+                            <p> <a href="service.html"
+                                    style="color: #670917; text-decoration: none;">Service</a></p>
+
+                            <p> <a href="faq.html" style="color: #670917; text-decoration: none;">Faq</a></p>
+
+                            <p style="color: #670917; text-decoration: none;" type="button" onclick="scrlToContact()">
+                                Contacts
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="option-1">
+
+                        <a href="cart.html" class="fa-solid fa-bag-shopping"></a>
+
+                        <button id="main-button">ORDER NOW</button>
+
+                        <div class="hover-menu" style="position: relative;">
+                            <i class="fa-solid fa-bars" id="menu-bar" style="position: relative;"></i>
+
+                            <!-- <div class="sub-menu">
+
+                        <p class="active" style="border-bottom: 2px solid #ffffff;">Home</li>
+
+                        <p><a href="../html/lunch.html">Combo</a></p>
+
+                        <p><a href="../html/about-us.html" >About Us</a></p>
+
+                        <p><a href="../html/service.html" >Service </a></p>
+
+                        <p><a href="../html/faq.html">Faq </a></p>
+
+                        <p type="button" onclick="scrlToContact()">Contacts </p>
+                    </div> -->
+
+                            <ul class="sub-menu">
+                                <li class="active" style="border-bottom: 2px solid #ffffff;">Home</li>
+                                <li><a href="lunch.html" style="color: #ffffff; text-decoration: none;">Combo
+                                    </a></li>
+                                <li><a href="about-us.html" style="color: #ffffff; text-decoration: none;">About
+                                        Us</a>
+                                </li>
+                                <li><a href="service.html"
+                                        style="color: #ffffff; text-decoration: none;">Service </a>
+                                </li>
+                                <li><a href="faq.html" style="color: #ffffff; text-decoration: none;">Faq </a>
+                                </li>
+                                <li type="button" onclick="scrlToContact()">Contacts</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+
+                <section class="hero">
+
+                    <div class="hero-txt">
+                        <h1>The Best Barista In Your Home</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.
+                        </p>
+
+                        <div class="option-2">
+
+                            <div class="search">
+                                <input type="search" placeholder="Search Your Barista">
+
+                                <span> <i class="fa-solid fa-search"></i></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="hero-img">
+
+                        <img src="home hero.png" alt="image">
+
+                        <div class="pop-up">
+
+                            <i class="fa-solid fa-location-dot" id="map"></i>
+                            <div class="txt">
+
+                                <h6 style="  font-size: 14px; padding: 0px 45px; margin: -30px -10px;">12 Restaurant
+                                </h6>
+                            </div>
+                            <p style="font-size: 12px; padding: 0px 0px 0px 55px;"> In Your City</p>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <section class="part-1">
+
+                <h2>How It Works</h2>
+                <p style="  width: 55%; font-size: 16px; margin: 20px 22%; ">optio magnam asperiores doloremque aut ex
+                    accusamus
+                    hic illum
+                    Non,possimus consequatur! Sint, voluptatem. Lorem ipsum dolor sit amet.
+                </p>
+
+                <div class="illus">
+
+                    <div class="set">
+                        <img src=barista" alt="image">
+                        <h3><span style="color: #b2b2b2;">01</span>Select Barista</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo sequi molestiae
+                            similique
+                        </p>
+                    </div>
+
+                    <div class="set">
+                        <img src="menu.png" alt="image">
+                        <h3><span style="color: #b2b2b2;">02</span>Select Menu</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo sequi molestiae
+                            similique
+                        </p>
+                    </div>
+
+                    <div class="set">
+                        <img src="delivery" alt="image">
+                        <h3><span style="color: #b2b2b2;">03</span>Wait for Delivery</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo sequi molestiae
+                            similique
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+            <section class="part-2">
+
+                <h2>12 Best Barista In Your City</h2>
+                <p>optio magnam asperiores doloremque aut ex accusamus hic illum architecto</p>
+
+
+
+                <div class="collum-1">
+
+
+                    <div class="review">
+                        <img src="logos-1.jpg" alt="image">
+
+                        <div class="txt">
+
+                            <h6>The Wilimington</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <button>american</button>
+                            <button>steakhouse</button>
+                            <button>seafood</button>
+
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima, repellendus,
+                                ea
+                                aperiam
+                                commodi eaque modi minus maiores voluptatum iste excepturi nam illum, ullam unde
+                                doloribus.</p>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="logos-2.jpg" alt="image">
+
+                        <div class="txt">
+
+                            <h6>Kennington Lane Cafe</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                            <button>american</button>
+                            <button>steakhouse</button>
+                            <button>seafood</button>
+
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima, repellendus,
+                                ea
+                                aperiam
+                                commodi eaque modi minus maiores voluptatum iste excepturi nam illum, ullam unde
+                                doloribus.</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="review">
+                        <img src="logos-3.jpg" alt="image">
+
+                        <div class="txt">
+
+                            <h6>Kings Arms</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <button>healthy</button>
+                            <button>steakhouse</button>
+                            <button>vegetarian</button>
+
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima, repellendus,
+                                ea
+                                aperiam
+                                commodi eaque modi minus maiores voluptatum iste excepturi nam illum, ullam unde
+                                doloribus.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="part-2-button">
+                    see all
+                </div>
+
+            </section>
+
+
+
+            <section class="banner-1st">
+
+                <div class="banner-1st-img">
+                    <img src="excite.jpg" alt="image">
+
+                    <div class="icon">
+                        <p><i class="fa-solid fa-burger"></i>Burger</p>
+                        <p><i class="fa-solid fa-mug-hot"></i>Coffe</p>
+                        <p><i class="fa-solid fa-pizza-slice"></i>Pizza</p>
+                    </div>
+
+                </div>
+
+
+                <div class="banner-1st-txt">
+                    <h1>Coffee from your favourite barista to your home</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.</p>
+
+                    <button id="main-button-1">ORDER NOW</button>
+                </div>
+
+            </section>
+
+
+
+            <section class="part-3">
+                <h1>service shows good taste.</h1>
+
+                <div class="option">
+                    <span style="color: #670917;">976</span>
+                    <p>satisfied customer</p>
+                </div>
+
+                <div class="option">
+                    <span style="color: #670917;">12</span>
+                    <p>best restaurant</p>
+                </div>
+
+                <div class="option">
+                    <span style="color: #670917;">1k+</span>
+                    <p>food deliverd</p>
+                </div>
+            </section>
+
+            <section class="banner-2nd">
+
+                <div class="banner-2nd-txt">
+
+                    <h1>What customers say about us</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque officia quia explicabo quod.
+                        Doloremque
+                        aut, aliquam incidunt, exercitationem sint voluptatum odit, a explicabo et provident esse
+                        dolorem
+                        ratione
+                        sit ducimus!</p>
+
+                    <div class="profile">
+                        <img src="profile.jpg" alt="image">
+
+                        <div class="txt">
+
+                            <p>Thomas Adamson</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="banner-2nd-img">
+
+                    <img src="review.jpg" alt="">
+
+                </div>
+
+            </section>
+
+            <section class="banner-3rd">
+
+                <h1>Want to join partnership?</h1>
+
+                <div class="partner">
+
+                    <img src="courier.jpg" alt="image" class="banner-3rd-img">
+
+                    <img src="merchant" alt="image" class="banner-3rd-img">
+
+                    <div class="outline">
+                        <div class="box">
+
+                            <h1>Join Courier</h1>
+                            <button>Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+
+                        <div class="box">
+
+                            <h1>Join Merchant</h1>
+                            <button>Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="part-4">
+                <h2>latest news and events</h2>
+
+                <div class="part-4-blog">
+
+                    <div class="blog">
+
+                        <img src="friends.jpg" alt="image">
+                        <h2>We Have Recived An Award For The Quality of Our Work</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, animi nesciunt in quia,
+                            possimus ipsum, at impedit itaque sequi veniam assumenda illo exercitationem obcaecati
+                            porro? Beatae
+                            minima aspernatur reprehenderit error necessitatibus enim. Sunt quaerat recusandae quo quia
+                            ipsum
+                            quasi! Similique, modi doloribus quam odio recusandae quibusdam enim error earum eius veniam
+                            dolore
+                            perferendis ut, iusto sequi consectetur quia maiores ducimus. Nulla expedita fuga laborum
+                            alias
+
+
+                        </p>
+
+                        <a href="https://www.baristainstitute.com/blog" style="color: #670917;">Read More </a>
+                        <!-- <button>Read More <i class="fa-solid fa-arrow-right"></i></button> -->
+
+
+                        <div class="detail">
+                            <p><i class="fa-solid fa-user"></i> by quickeat</p>
+                            <p><i class="fa-regular fa-calendar-days"></i> 01.01.2024</p>
+                            <p><i class="fa-solid fa-eye"></i> 1049 </p>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="right-side">
+
+                        <div class="blog-set">
+                            <img src="blog 1" alt="image">
+
+                            <div class="describe">
+
+                                <div class="txt">
+
+                                    <button>Barista </button>
+                                    <button>Cooking</button>
+
+                                </div>
+
+                                <h3>with lourence you can order food for your whole day</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima,
+                                    repellendus,
+                                    ea
+                                    aperiam</p>
+
+                                <div class="detail">
+                                    <p><i class="fa-solid fa-user"></i> by quickeat</p>
+                                    <p><i class="fa-regular fa-calendar-days"></i> 01.01.2024</p>
+                                    <p><i class="fa-solid fa-eye"></i> 1049 </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="blog-set">
+                            <img src="blog 4 copy.jpg" alt="image">
+
+                            <div class="describe">
+
+                                <div class="txt">
+
+                                    <button>Barista </button>
+                                    <button>Cooking</button>
+
+                                </div>
+
+                                <h3>with lourence you can order food for your whole day</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima,
+                                    repellendus,
+                                    ea
+                                    aperiam</p>
+
+                                <div class="detail">
+                                    <p><i class="fa-solid fa-user"></i> by quickeat</p>
+                                    <p><i class="fa-regular fa-calendar-days"></i> 01.01.2024</p>
+                                    <p><i class="fa-solid fa-eye"></i> 1049 </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="blog-set">
+                            <img src="blog 2" alt="image">
+
+                            <div class="describe">
+
+                                <div class="txt">
+
+                                    <button>Barista </button>
+                                    <button>Cooking</button>
+
+                                </div>
+
+                                <h3>with lourence you can order food for your whole day</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima,
+                                    repellendus,
+                                    ea
+                                    aperiam</p>
+
+                                <div class="detail">
+                                    <p><i class="fa-solid fa-user"></i> by quickeat</p>
+                                    <p><i class="fa-regular fa-calendar-days"></i> 01.01.2024</p>
+                                    <p><i class="fa-solid fa-eye"></i> 1049 </p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+                        </div>
+            </section>
+
+
+
+
+            <section class="banner-4th">
+
+                <div class="banner-4th-img">
+
+                    <img src="subscribe.png" alt="image">
+
+                </div>
+
+                <div class="banner-4th-txt">
+                    <h1>Get The Menu of Your Favorite Brista Every day</h1>
+
+                    <div class="option-2">
+
+                        <div class="search">
+                            <span style="color: #b2b2b2;"> <i class="fa-regular fa-bell"></i></span>
+                            <input type="search" placeholder="Enter your email">
+
+                        </div>
+
+                        <form action="submit.html">
+                            <button>SUBSCRIBE</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <footer id="footer">
+                <div class="logo">
+
+                    <img src="laurence logo.png" alt="logo" id="logo">
+
+                    <h1>The Best Barista In Your Home</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.</p>
+                </div>
+
+                <div class="menu">
+
+                    <h3>MENU</h3>
+
+                    <p><a href="index.html" style="color: #670917; text-decoration: none;">Home</a><i
+                            class="fa-solid fa-arrow-right"></i></p>
+
+                    <p><a href="lunch.html" style="color: #670917; text-decoration: none;">Combo</a><i
+                            class="fa-solid fa-arrow-right"></i></p>
+
+                    <p><a href="about-us.html" style="color: #670917; text-decoration: none;">About Us</a><i
+                            class="fa-solid fa-arrow-right"></i></p>
+
+                    <p><a href="service.html" style="color: #670917; text-decoration: none;">Service</a><i
+                            class="fa-solid fa-arrow-right"></i></p>
+
+                    <p><a href="faq.html" style="color: #670917; text-decoration: none;">Faq</a><i
+                            class="fa-solid fa-arrow-right"></i></p>
+                </div>
+
+                <div class="contact">
+
+                    <h3>CONTACTS</h3>
+
+                    <p><i class="fa-solid fa-location-dot"></i> 19501 Biscayne Blvd, Aventura, FL 33180, United States
+                    </p>
+
+                    <div class="line"></div>
+                    <p><i class="fa-solid fa-envelope"></i>Lourence@mail.net</p>
+                    <p><i class="fa-solid fa-phone"></i> (555) 0100-0199</p>
+                </div>
+
+
+                <!--- ALL YOUR CONTENT HERE --->
+        </div>
+    </div>
+    <!-- position: fixed elements can go outside --->
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

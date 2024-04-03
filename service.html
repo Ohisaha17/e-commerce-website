@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="component.css">
+    <link rel="shortcut icon" href="laurence favicon.png" type="image/x-icon">
+    <title>Lournece : barista in you home </title>
+    <script src="https://kit.fontawesome.com/7041039d72.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <script>
+        // Disable automatic scroll restoration
+        history.scrollRestoration = 'manual';
+      
+        // Scroll to top on page load
+        window.onload = function() {
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
+        };
+      </script>
+</head>
+
+<body>
+
+    <div id="service-background">
+
+        <nav>
+            <div class="logo-n-menu">
+
+                <img src="laurence logo.png" alt="logo" id="logo">
+
+                <div class="menu">
+                    <p><a href="index.html" style="color: #670917; text-decoration: none;">Home</a></p>
+                    <p><a href="lunch.html" style="color: #670917; text-decoration: none;">Combo</a></p>
+                    <p> <a href="about-us.html" style="color: #670917; text-decoration: none;">About Us</a></p>
+                    <p class="active">Service</p>
+                    <p> <a href="faq.html" style="color: #670917; text-decoration: none;">Faq</a></p>
+
+                    <p style="color: #670917; text-decoration: none;" type="button" onclick="scrlToContact()">Contacts</p>
+
+                </div>
+            </div>
+
+            <div class="option-1">
+
+            <a href="cart.html" class="fa-solid fa-bag-shopping"></a>
+
+                <button id="main-button">ORDER NOW</button>
+
+                <div class="hover-menu" style="position: relative;">
+                    <i class="fa-solid fa-bars" id="menu-bar" style="position: relative;"></i>
+
+                    <!-- <div class="sub-menu">
+
+                        <p class="active" style="border-bottom: 2px solid #ffffff;">Home</li>
+
+                        <p><a href="../html/lunch.html">Combo </a></p>
+
+                        <p><a href="../html/about-us.html" >About Us</a></p>
+
+                        <p><a href="../html/service.html" >Service </a></p>
+
+                        <p><a href="../html/faq.html">Faq </a></p>
+
+                        <p type="button" onclick="scrlToContact()">Contacts </p>
+                    </div> -->
+
+                    <ul class="sub-menu">
+                        <li> <a href="lunch.html" style="color: #ffffff; text-decoration: none;">Home </a></li>
+                        <li><a href="lunch.html" style="color: #ffffff; text-decoration: none;">Combo </a></li>
+                        <li><a href="about-us.html" style="color: #ffffff; text-decoration: none;">About Us</a></li>
+                        <li class="active" style="border-bottom: 2px solid #ffffff;">Service </li>
+                        <li><a href="faq.html" style="color: #ffffff; text-decoration: none;">Faq </a></li>
+                        <li type="button" onclick="scrlToContact()">Contacts</li>
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </nav>
+
+        <section class="service-hero">
+
+            <div class="hero-txt">
+
+                <div class="navigator" style="display: flex; align-items: center;">
+                    <p> <a href="index.html"
+                            style=" font-size: 14px; color:rgb(164, 164, 164); text-decoration: none;">Home</a><i
+                            class="fa-solid fa-arrow-right" style=" margin: 10px 10px;color: #670917"></i>
+                    <p>Service</p>
+                    </p>
+                </div>
+
+                <h1>service shows good taste</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.</p>
+
+                <div class="option-2">
+
+                    <div class="search">
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+
+                </div>
+
+
+                <button id="main-button-1">SUBMIT </button>
+
+            </div>
+
+            <div class="service-hero-img">
+                <div class="border"></div>
+                <img src="service hero.png" alt="image" id="img-1">
+
+                <div class="pop-1">
+                    <h1>1k+</h1>
+                    <p>food deliverd</p>
+                </div>
+                <img src="service hero 2" alt="image" id="img-2">
+
+                <div class="pop-2">
+                    <h1>12</h1>
+                    <p>best Restaurants</p>
+                </div>
+
+
+            </div>
+
+        </section>
+    </div>
+
+    <section class="service-part1">
+
+        <div class="service-part1-text">
+
+            <h1>Make you easier and happier</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ea sunt odio recusandae beatae, tenetur
+                molestias corporis accusantium non saepe?</p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon-stroke"></div>
+            <i class="fa-solid fa-clock"></i>
+            <h1>Save Your Time</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem,
+                perferendis. Quam nobis harum </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon-stroke"></div>
+            <i class="fa-solid fa-utensils"></i>
+            <h1>Variety Food</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem,
+                perferendis. Quam nobis harum </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon-stroke"></div>
+            <i class="fa-solid fa-truck"></i>
+            <h1>Free Delivery</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem,
+                perferendis. Quam nobis harum </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon-stroke"></div>
+            <i class="fa-solid fa-tags"></i>
+            <h1>Reguler Discount</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem,
+                perferendis. Quam nobis harum </p>
+        </div>
+
+        <div class="service-part1-text">
+            <h1>Best quality food and restaurants</h1>
+
+
+            <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur </p>
+            <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur </p>
+            <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur </p>
+            <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur </p>
+        </div>
+
+    </section>
+
+
+    <section class="part-1">
+
+        <h2>How It Works</h2>
+        <p style="  width: 55%; font-size: 16px; margin: 20px 22%; ">optio magnam asperiores doloremque aut ex accusamus
+            hic illum
+            Non,possimus consequatur! Sint, voluptatem. Lorem ipsum dolor sit amet.
+        </p>
+
+        <div class="illus">
+
+            <div class="set">
+                <img src="barista" alt="image">
+                <h3><span style="color: #b2b2b2;">01</span>Select Restaurant</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo sequi molestiae
+                    similique
+                </p>
+            </div>
+
+            <div class="set">
+                <img src="menu.png" alt="image">
+                <h3><span style="color: #b2b2b2;">02</span>Select Menu</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo sequi molestiae
+                    similique
+                </p>
+            </div>
+
+            <div class="set">
+                <img src="delivery" alt="image">
+                <h3><span style="color: #b2b2b2;">03</span>Wait for Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo sequi molestiae
+                    similique
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="service-banner">
+
+        <img src="customer-suppor 2" alt="image">
+
+        <div class="service-banner-text">
+
+            <h1>Sit at Home We will Take Care Your Order </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.</p>
+
+            <div class="dish">
+                <p><i class="fa-solid fa-burger"></i>Burgers </p>
+                <p><i class="fa-solid fa-drumstick-bite"></i>Chicken</p>
+                <p><i class="fa-solid fa-cheese"></i>Steaks</p>
+                <p><i class="fa-solid fa-pizza-slice"></i>Pizza</p>
+                <p><i class="fa-solid fa-fish"></i>Fish</p>
+            </div>
+
+            <button>ORDER NOW</button>
+
+        </div>
+    </section>
+
+
+
+    <section class="banner-4th">
+
+        <div class="banner-4th-img">
+
+            <img src="subscribe 3" alt="image">
+
+        </div>
+
+        <div class="banner-4th-txt">
+            <h1>Get The Menu of Your Favorite Restaurant Every day</h1>
+
+            <div class="option-2">
+
+                <div class="search">
+                    <span style="color: #b2b2b2;"> <i class="fa-regular fa-bell"></i></span>
+                    <input type="search" placeholder="Enter your email">
+
+                </div>
+
+                <form action="submit.html">
+                    <button>SUBSCRIBE</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="logo">
+
+            <img src="laurence logo.png" alt="logo" id="logo">
+
+            <h1>The Best Barista In Your Home</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.</p>
+        </div>
+
+        <div class="menu">
+
+            <h3>MENU</h3>
+
+            <p><a href="..index.html" style="color: #670917; text-decoration: none;">Home</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="..lunch.html" style="color: #670917; text-decoration: none;">Combo</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="..about-us.html" style="color: #670917; text-decoration: none;">About Us</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="..service.html" style="color: #670917; text-decoration: none;">Service</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="..faq.html" style="color: #670917; text-decoration: none;">Faq</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+        </div>
+
+        <div class="contact">
+
+            <h3>CONTACTS</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i>  19501 Biscayne Blvd, Aventura, FL 33180, United States </p>
+
+            <div class="line"></div>
+            <p><i class="fa-solid fa-envelope"></i>Lourence@mail.net</p>
+            <p><i class="fa-solid fa-phone"></i> (555) 0100-0199</p>
+        </div>
+
+
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>

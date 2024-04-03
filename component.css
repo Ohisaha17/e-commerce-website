@@ -1,0 +1,405 @@
+#main-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color:  #670917;
+    color: white;
+
+}
+
+.option-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.option-2 .search {
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(255, 239, 239, 0.541);
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 20px 20px 20px 0px;
+}
+
+
+.option-2 .search input {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #b2b2b2;
+    background-color: white;
+    margin: 0px 5px ;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color: #787878;
+    margin: 0px 15px 15px 30px;
+
+    i {
+        padding: 5px 10px;
+    }
+}
+
+form input {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    background-color:  #670917;
+    color: rgb(255, 255, 255);
+    margin: 5px  0px;
+    padding: 5px;
+}
+
+@media (max-width:500px) {
+
+    nav {
+        padding: 0px 2%;
+
+    }
+
+    button {
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1080px) {
+    #main-button {
+        height: 40px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:935px) {
+    #main-button {
+        display: none;
+    }
+
+    .part-2-button {
+        top: 100%;
+        left: 45%;
+    }
+}
+
+@media (max-width: 540px) {
+    .hero .hero-img img {
+        width: 300px;
+    }
+
+    .hero .hero-img .pop-up {
+        top: 120%;
+        left: 35%;
+    }
+
+    .banner-1st-img img {
+        width: 300px;
+        padding: 0px 5%;
+    }
+
+    .part-4 {
+        width: 100%;
+        padding: 20px 0%;
+
+
+    }
+
+    .part-4 .blog {
+        margin: 0px 0%;
+
+        img {
+            width: 280px;
+            border-radius: 25px;
+            margin: 10px;
+        }
+
+        h2 {
+            margin: 15px;
+        }
+
+        p {
+            padding: 0px 15px;
+        }
+
+        a {
+            margin: 15px;
+
+        }
+    }
+
+    .part-4-blog .right-side {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 320px) {
+
+    nav #logo {
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    #menu-bar {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        background-color: #670917;
+        padding: 5px 8px;
+        margin-right: 0px;
+    }
+
+    .hero-txt h1 {
+        font-size: 30px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .hero .hero-img img {
+        width: 200px;
+    }
+
+    .hero .hero-img .pop-up {
+        width: 150px;
+        height: 40px;
+        padding: 10px 5px;
+        margin: 0px 5%;
+        top: 100%;
+        left: 35%;
+    }
+
+    .pop-up #map {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .banner-1st-img img {
+        width: 200px;
+        padding: 0px 5%;
+    }
+
+    .collum-1 .review {
+        width: 100%;
+        padding: 0px 5%;
+    }
+
+    .part-2-button {
+        top: 100%;
+        left: 35%;
+    }
+
+    .banner-2nd-txt {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .profile img {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .profile .txt i {
+        font-size: 12px;
+    }
+
+    .banner-2nd-img img {
+        width: 250px;
+        padding: 0px 0%;
+    }
+
+    .box {
+        width: 200px;
+        height: 150px;
+        margin: 30px 10px;
+    }
+
+    .banner-3rd-img {
+        width: 200px;
+        height: 150px;
+        border-radius: 25px;
+        object-fit: cover;
+        position: relative;
+        margin: 30px 0px;
+    }
+    .outline .box h1 {
+        font-size: 20px;
+        font-weight: 700;
+        left: 20px;
+        bottom: 40px;
+    }
+
+    .outline .box button {
+        width: 90px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 12px;
+        left: 20px;
+        bottom: 5px;
+    }
+
+    .part-4 .blog {
+        img {
+            width: 280px;
+            margin: 10px 0%;
+        }
+    }
+}
+
+
+footer {
+    width: 100%;
+    background-color: #ffdfe4;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 5%;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #670917;
+        margin: 30px 0px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 700;
+        color: #670917;
+        margin: 30px 0px;
+    }
+
+    i {
+        padding: 15px;
+
+    }
+
+    .logo {
+        width: 25%;
+        color: #670917;
+    }
+
+    .logo img {
+        height: 40px;
+        margin: 30px 0px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 900;
+        margin: 20px 0px;
+    }
+
+    .contact {
+        p {
+            font-size: 16px;
+            font-weight: 700;
+            color: #670917;
+            margin: 10px 0px;
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            background-color: #670917;
+        }
+    }
+
+}
+
+@media (max-width:970px) {
+    footer {
+        .logo {
+            width: 100%;
+        }
+
+        .contact {
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width:500px) {
+
+    footer {
+        width: 100%;
+        font-size: 16px;
+        padding: 30px 5%;
+
+        h3 {
+            margin: 10px 5px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 700;
+            margin: 10px 5px;
+        }
+
+        i {
+            padding: 10px;
+        }
+
+        .logo {
+            width: 100%;
+        }
+
+        .logo img {
+            height: 30px;
+            margin: 0px 0px;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin: 20px 0px;
+        }
+
+        .contact {
+            p {
+                font-size: 14px;
+
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+
+
+
+/* #active */
+
+.active {
+    /* width: 120px;
+    text-align: center; */
+    border-bottom: 4px solid #670917;
+}

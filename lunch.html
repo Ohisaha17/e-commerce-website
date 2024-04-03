@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="component.css">
+    <link rel="shortcut icon" href="laurence favicon.png" type="image/x-icon">
+    <title>Lournece : barista in you home </title>
+    <script src="https://kit.fontawesome.com/7041039d72.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <script>
+        // Disable automatic scroll restoration
+        history.scrollRestoration = 'manual';
+
+        // Scroll to top on page load
+        window.onload = function () {
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        };
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo-n-menu">
+
+            <img src="laurence logo.png" alt="logo" id="logo">
+
+            <div class="menu">
+                <p><a href="index.html" style="color: #670917; text-decoration: none;">Home</a></p>
+                <p class="active">Combo</a></p>
+                <p> <a href="about-us.html" style="color: #670917; text-decoration: none;">About Us</a></p>
+                <p> <a href="service.html" style="color: #670917; text-decoration: none;">Service</a></p>
+                <p> <a href="faq.html" style="color: #670917; text-decoration: none;">Faq</a></p>
+
+                <p style="color: #670917; text-decoration: none;" type="button" onclick="scrlToContact()">Contacts</p>
+
+            </div>
+
+        </div>
+
+        <div class="option-1">
+
+            <a href="cart.html" class="fa-solid fa-bag-shopping"></a>
+
+            <button id="main-button">ORDER NOW</button>
+
+            <div class="hover-menu" style="position: relative;">
+                <i class="fa-solid fa-bars" id="menu-bar" style="position: relative;"></i>
+
+                <!-- <div class="sub-menu">
+
+                    <p class="active" style="border-bottom: 2px solid #ffffff;">Home</li>
+
+                    <p><a href="../html/lunch.html">Combo </a></p>
+
+                    <p><a href="../html/about-us.html" >About Us</a></p>
+
+                    <p><a href="../html/service.html" >Service </a></p>
+
+                    <p><a href="../html/faq.html">Faq </a></p>
+
+                    <p type="button" onclick="scrlToContact()">Contacts </p>
+                </div> -->
+
+                <ul class="sub-menu">
+                    <li> <a href="lunch.html" style="color: #ffffff; text-decoration: none;">Home </a></li>
+                    <li class="active" style="border-bottom: 2px solid #ffffff;">Combo </li>
+                    <li><a href="about-us.html" style="color: #ffffff; text-decoration: none;">About Us</a></li>
+                    <li><a href="service.html" style="color: #ffffff; text-decoration: none;">Service </a></li>
+                    <li><a href="faq.html" style="color: #ffffff; text-decoration: none;">Faq </a></li>
+                    <li type="button" onclick="scrlToContact()">Contacts</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <section class="lunch">
+
+        <div class="navigator" style="display: flex; align-items: center; justify-content: center;">
+            <p><a href="index.html"
+                    style=" font-size: 14px; color:rgb(164, 164, 164); text-decoration: none;">Home</a><i
+                    class="fa-solid fa-arrow-right" style=" margin: 10px 10px;color: #670917"></i>
+            <p>Pricing Table</p>
+            </p>
+        </div>
+
+
+        <h1>Special Combo </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.</p>
+    </section>
+
+    <div class="set-part">
+
+        <section class="set">
+
+            <div class="info">
+                <img src="combo 5.jpg" alt="image">
+
+                <div class="info-text">
+
+                    <p id="price"> $112</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">small business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i> ipsum dolor amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum consectetur </p>
+                <p><i class="fa-solid fa-check"></i>dolor sit amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgba(255,205,221,1) 83%);">
+
+            <div class="info">
+                <img src="combo 12.jpg" alt="image">
+
+                <!-- <h2>New Launch</h2> -->
+
+                <div class="info-text">
+
+                    <p id="price"> $270</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">large business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgb(253, 222, 222) 83%);">
+
+            <div class="info">
+                <img src="combo 2.jpg" alt="image">
+
+                <div class="info-text">
+
+                    <p id="price"> $180</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name"> medium business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolorum </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="set">
+
+            <div class="info">
+                <img src="combo 4.jpg" alt="image">
+
+                <div class="info-text">
+
+                    <p id="price"> $112</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">small business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i> ipsum dolor amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum consectetur </p>
+                <p><i class="fa-solid fa-check"></i>dolor sit amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgba(255,205,221,1) 83%);">
+
+            <div class="info">
+                <img src="combo 6.jpg" alt="image">
+
+                <!-- <h2>New Launch</h2> -->
+
+                <div class="info-text">
+
+                    <p id="price"> $270</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">large business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgb(253, 222, 222) 83%);">
+
+            <div class="info">
+                <img src="combo 7.jpg" alt="image">
+
+                <div class="info-text">
+                    <p id="price"> $180</p>
+
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name"> medium business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolorum </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <section class="set">
+
+            <div class="info">
+                <img src="combo 9.jpg" alt="image">
+
+                <div class="info-text">
+
+                    <p id="price"> $112</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">small business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i> ipsum dolor amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum consectetur </p>
+                <p><i class="fa-solid fa-check"></i>dolor sit amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgba(255,205,221,1) 83%);">
+
+            <div class="info">
+                <img src="combo 8.jpg" alt="image">
+
+                <!-- <h2>New Launch</h2> -->
+
+                <div class="info-text">
+
+                    <p id="price"> $270</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">large business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgb(253, 222, 222) 83%);">
+
+            <div class="info">
+                <img src="combo 10.jpg" alt="image">
+
+                <div class="info-text">
+
+                    <p id="price"> $180</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name"> medium business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolorum </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="set">
+
+            <div class="info">
+                <img src="combo 11.jpg" alt="image">
+
+                <div class="info-text">
+
+                    <p id="price"> $112</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">small business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i> ipsum dolor amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum consectetur </p>
+                <p><i class="fa-solid fa-check"></i>dolor sit amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgba(255,205,221,1) 83%);">
+
+            <div class="info">
+                <img src="combo 1.jpg" alt="image">
+
+                <!-- <h2>New Launch</h2> -->
+
+                <div class="info-text">
+
+                    <p id="price"> $270</p>
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name">large business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> amet consectetur </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="set" style="background: rgb(255,255,255);
+        background: linear-gradient(31deg, rgba(255,255,255,1) 39%, rgb(253, 222, 222) 83%);">
+
+            <div class="info">
+                <img src="combo 3.jpg" alt="image">
+
+                <div class="info-text">
+                    <p id="price"> $180</p>
+
+                    <p style=" color: rgb(155, 155, 155);">/per week</p>
+                    <h1 id="product-name"> medium business lunch</h1>
+                </div>
+            </div>
+
+            <div class="set-text">
+
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolor </p>
+                <p><i class="fa-solid fa-check"></i> sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i> dolor sit amet consectetur </p>
+                <p><i class="fa-solid fa-check"></i>Lorem ipsum dolorum </p>
+
+                <button id="addToCartBtn1" onclick="click()"> Add To Cart </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+
+
+
+    <section class="banner-4th">
+
+        <div class="banner-4th-img">
+
+            <img src="subscribe 3" alt="image">
+
+        </div>
+
+        <div class="banner-4th-txt">
+            <h1>Get The Menu of Your Favorite Barista Every day</h1>
+
+            <div class="option-2">
+
+                <div class="search">
+                    <span style="color: #b2b2b2;"> <i class="fa-regular fa-bell"></i></span>
+                    <input type="search" placeholder="Enter your email">
+
+                </div>
+
+                <form action="submit.html">
+                    <button>SUBSCRIBE</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="logo">
+
+            <img src="laurence logo.png" alt="logo" id="logo">
+
+            <h1>The Best Barista In Your Home</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam alias maiores.</p>
+        </div>
+
+        <div class="menu">
+
+            <h3>MENU</h3>
+
+            <p><a href="index.html" style="color: #670917; text-decoration: none;">Home</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="lunch.html" style="color: #670917; text-decoration: none;">Combo</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="about-us.html" style="color: #670917; text-decoration: none;">About Us</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="service.html" style="color: #670917; text-decoration: none;">Service</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+
+            <p><a href="faq.html" style="color: #670917; text-decoration: none;">Faq</a><i
+                    class="fa-solid fa-arrow-right"></i></p>
+        </div>
+
+        <div class="contact">
+
+            <h3>CONTACTS</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> 19501 Biscayne Blvd, Aventura, FL 33180, United States </p>
+
+            <div class="line"></div>
+            <p><i class="fa-solid fa-envelope"></i>Lourence@mail.net</p>
+            <p><i class="fa-solid fa-phone"></i> (555) 0100-0199</p>
+        </div>
+
+
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
