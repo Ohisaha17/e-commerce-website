@@ -4,7 +4,7 @@
     border: none;
     border-radius: 5px;
     font-size: 14px;
-    background-color:  #670917;
+    background-color: #670917;
     color: white;
 
 }
@@ -36,7 +36,7 @@
     height: 40px;
     color: #b2b2b2;
     background-color: white;
-    margin: 0px 5px ;
+    margin: 0px 5px;
 }
 
 
@@ -72,9 +72,9 @@ button {
     border: none;
     font-size: 12px;
     font-weight: 500;
-    background-color:  #670917;
+    background-color: #670917;
     color: rgb(255, 255, 255);
-    margin: 5px  0px;
+    margin: 5px 0px;
     padding: 5px;
 }
 
@@ -160,6 +160,13 @@ button {
     }
 }
 
+@media(max-width:355px) {
+    .banner-1st-img img {
+        width: 200px;
+        padding: 0px 5%;
+    }
+}
+
 @media (max-width: 320px) {
 
     nav #logo {
@@ -203,11 +210,6 @@ button {
         font-size: 12px;
     }
 
-    .banner-1st-img img {
-        width: 200px;
-        padding: 0px 5%;
-    }
-
     .collum-1 .review {
         width: 100%;
         padding: 0px 5%;
@@ -238,26 +240,27 @@ button {
 
     .box {
         width: 200px;
-        height: 150px;
-        margin: 30px 10px;
+        /* height: 150px; */
+        margin: 10px 10px;
     }
 
-    .banner-3rd-img {
+    .box img {
         width: 200px;
         height: 150px;
         border-radius: 25px;
         object-fit: cover;
         position: relative;
-        margin: 30px 0px;
+        margin: 0px 0px;
     }
-    .outline .box h1 {
+
+    .box h1 {
         font-size: 20px;
         font-weight: 700;
         left: 20px;
         bottom: 40px;
     }
 
-    .outline .box button {
+    .box button {
         width: 90px;
         height: 30px;
         border-radius: 5px;
